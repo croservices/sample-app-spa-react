@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, 'static/js')
     },
     module : {
-        loaders : [
+        rules : [
             {
                 test: /\.js/,
                 include: path.resolve(__dirname, 'frontend'),
